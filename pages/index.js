@@ -25,6 +25,14 @@ export default function Home() {
 					buttonText="View stores nearby"
 					handleOnClick={handleOnBannerBtnClick}
 				/>
+				<div className={styles.heroImage}>
+					<Image
+						src="/static/hero-img.png"
+						width={700}
+						height={400}
+						alt="Caffeine Addicts landing picture"
+					/>
+				</div>
 			</main>
 		</div>
 	);
