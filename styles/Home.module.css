@@ -2,6 +2,7 @@
 
 .container {
 	margin-bottom: 14rem /* 224px */;
+	background: transparent;
 }
 
 .main {
@@ -13,9 +14,17 @@
 	padding-right: 1rem /* 16px */;
 }
 
+.mainHeader {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 1.5rem;
+}
+
 .heroImage {
-	position: absolute;
-	top: 0px;
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 1100px;
 	z-index: 1;
 }
 
